@@ -3,7 +3,6 @@ anyio==4.11.0
 dotenv==0.9.9
 fastapi==0.119.1
 idna==3.11
-psycopg2-binary==2.9.11
 pydantic==2.12.3
 pydantic_core==2.41.4
 python-dotenv==1.1.1
