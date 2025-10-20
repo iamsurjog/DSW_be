@@ -1,4 +1,4 @@
-# MAD MAX (yea like the movie)
+# DBMS Project Backend
 ## Installation
 ```bash
  git pull https://github.com/iamsurjog/dsw_be.git
