@@ -5,3 +5,8 @@
  py -m venv ./.venv
  pip install -r requirements.txt
 ```
+make sure to put the 
+```python
+CONNECTION_STRING="your connection string"
+```
+in a .env file
