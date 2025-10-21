@@ -1,12 +1,22 @@
 # DBMS Project Backend
 ## Installation
+To download the repo run
 ```bash
- git pull https://github.com/iamsurjog/dsw_be.git
+ git clone https://github.com/iamsurjog/dsw_be.git
  py -m venv ./.venv
  pip install -r requirements.txt
 ```
-make sure to put the 
-```python
-CONNECTION_STRING="your connection string"
+
+## Running it
+### Windows
+```bash
+.\.venv\Scripts\activate
+fastapi run main.py
 ```
-in a .env file
+
+### Linux
+```bash
+source .venv/bin/activate
+fastapi run main.py
+```
+
