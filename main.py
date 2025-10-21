@@ -33,7 +33,7 @@ async def cc(name: str):
     return {query}
 
 @app.get("/bookings/{booking_id}")
-async def read_item(booking_id: str):
+async def read_bookings(booking_id: str):
     query = db.query(cursor, "select * from bookings where booking_id=" + booking_id)[0]
     return {query}
 
