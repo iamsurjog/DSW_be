@@ -1,4 +1,4 @@
-def query(cursor, query: str):
+def query(cursor, query: str) -> list:
     cursor.execute(query)
     if "select" in query.casefold():
         return cursor.fetchall()
